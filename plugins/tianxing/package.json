@@ -1,9 +1,8 @@
 {
   "name": "@yunkuangao/koishi-plugin-tianxing",
   "description": "天行数据接口",
-  "private": false,
   "author": "yunkuangao <a317526763@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -12,7 +11,9 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/yunkuangao/koishi-dev",
-  "scripts": {},
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "keywords": [
     "chatbot",
     "koishi",
