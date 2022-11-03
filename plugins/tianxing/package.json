@@ -2,7 +2,7 @@
   "name": "@yunkuangao/koishi-plugin-tianxing",
   "description": "天行数据接口",
   "author": "yunkuangao <a317526763@gmail.com>",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [

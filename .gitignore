@@ -17,4 +17,5 @@ tsconfig.tsbuildinfo
 *.njsproj
 *.sln
 
-logs
+logs\
+.vite
