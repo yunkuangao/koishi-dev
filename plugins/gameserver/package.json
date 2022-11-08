@@ -1,8 +1,8 @@
 {
-  "name": "@yunkuangao/koishi-plugin-tianxing",
-  "description": "天行数据接口",
+  "name": "@yunkuangao/koishi-plugin-gameserver",
+  "description": "游戏服务器查询",
+  "version": "1.0.3",
   "author": "yunkuangao <a317526763@gmail.com>",
-  "version": "1.0.5",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -10,16 +10,16 @@
     "dist"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yunkuangao/koishi-dev",
+  "homepage": "https://github.com/yunkuangao/gameserver",
+  "keywords": [
+    "gameserver"
+  ],
   "scripts": {
     "publish": "npm publish --access public"
   },
-  "keywords": [
-    "chatbot",
-    "koishi",
-    "plugin",
-    "tianxing"
-  ],
+  "dependencies": {
+    "gamedig": "^4.0.5"
+  },
   "peerDependencies": {
     "koishi": "^4.9.6"
   }

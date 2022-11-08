@@ -3,6 +3,9 @@
   "references": [
     {
       "path": "./plugins/tianxing"
+    },
+    {
+      "path": "./plugins/gameserver"
     }
   ]
 }

@@ -34,3 +34,9 @@ plugins:
     ~adapter-telegram: null
     ~adapter-kook: null
     gocqhttp: null
+  '@yunkuangao/tianxing':
+    key: 969dbc2c2d6dbb1aab2f606526eaa2fb 
+  '@yunkuangao/gameserver':
+    valheim:
+      host: valheim
+      type: valheim
